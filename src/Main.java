@@ -154,8 +154,8 @@ public class Main {
 
     public static void task7() {
         System.out.println("Homework 2 Task 4");
-        int friday = 5;
-        for (; friday <= 31; friday += 7) {
+
+        for (int friday = 5; friday <= 31; friday += 7) {
             System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет");
         }
     }
